@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D3 Multi-Line Chart</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="chart-card">
+      <h1>Emergency Backup Power Readiness</h1>
+      <p>
+        This chart compares estimated monthly backup-power readiness for two community sites.
+        Higher percentages mean the site is more prepared to keep operating during an outage.
+      </p>
+      <div id="chart"></div>
+      <p class="source-note">
+        Data source: original sample CSV created for this assignment.
+        D3 reference: d3.line, d3.scaleTime, and d3.csv from the official D3 documentation.
+      </p>
+    </section>
+  </main>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
