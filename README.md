@@ -1,6 +1,4 @@
-# Assignment-D3-HW2-B-DATA-497
-
-# D3 Multi-Line Chart Assignment
+# D3 Multiline Credit Data Visualization
 
 ## Data Source Reference
 The dataset used in this project is based on the Credit Card Applications dataset from Kaggle:
